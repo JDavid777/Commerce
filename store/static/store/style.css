@@ -1,0 +1,17 @@
+:root{
+	box-sizing: content-box;
+	width: 1364px;
+	background-image: url("./resources/montana.jpg");
+	background-size: cover;
+}
+nav{
+	background: white;
+}
+ul{
+	display: flex;
+	justify-content: center;
+}
+li{
+	margin: 0.75rem;
+	display: inline-block;
+}
