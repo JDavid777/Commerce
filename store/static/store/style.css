@@ -1,11 +1,37 @@
 :root{
 	box-sizing: content-box;
-	width: 1364px;
+	width: 1344px;
 	background-image: url("./resources/montana.jpg");
 	background-size: cover;
 }
-nav{
-	background: white;
+.bar_search{
+	display: flex;
+	justify-content: center;
+}
+.title_page{
+	font-size: 50px;
+	display: inline-block;
+	margin-left: -200px;
+	margin-right: 90px;
+}
+Input{
+	height: 15%;
+	width: 70%;
+}
+button{
+	height: 18%;
+}
+.bar_status{
+	background: #999999;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	color: #666666;
 }
 ul{
 	display: flex;
@@ -14,4 +40,66 @@ ul{
 li{
 	margin: 0.75rem;
 	display: inline-block;
+}
+.separator_brand{
+	border: 30px;
+	height: 400px;
+}
+.separator_week{
+	border: 30px;
+	height: 100px;
+}
+.separator_article{
+	font-size: 25px;
+}
+.text_favorite{
+	color: white;
+	margin-right: 80px;
+	margin-left: 60px;
+	text-align: justify;
+}
+hr{
+	display: inline-block;
+	width: 27%;
+	size: 2;
+	margin-left: 65px;
+	margin-right: 65px;
+}
+h2{
+	display: inline-block;
+}
+.contact{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: grey;
+	border: 40px solid grey;
+}
+label{
+	margin-right: 40px;
+}
+input:invalid{
+	border-color: #900;
+	background-color: #FDD;
+}
+input:focus:invalid{
+	outline: none;
+}
+.error {
+  width  : 100%;
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.error.active {
+  padding: 0.3em;
 }
