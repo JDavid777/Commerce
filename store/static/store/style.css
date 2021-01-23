@@ -16,10 +16,12 @@
 }
 Input{
 	height: 15%;
-	width: 70%;
+	width: 60%;
+	position: relative;
 }
 button{
 	height: 18%;
+	position: relative;
 }
 .bar_status{
 	background: #999999;
